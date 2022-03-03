@@ -2,11 +2,15 @@ import React from "react";
 import Capa from "./Capa";
 import styled from "styled-components";
 import Home from "./Home";
+import { createGlobalStyle } from 'styled-components'
+
+
 
 export default function App() {
     return (
         <>
-        <Container>
+        <GlobalStyle />
+        <Container >
         <Capa />
         <Home />
         </Container>
@@ -16,7 +20,17 @@ export default function App() {
 }
 
 const Container = styled.div`
-height: 100%;
 display: flex;
-font-family: sans-serif;
+`
+
+const GlobalStyle  = createGlobalStyle`
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+      font-family: sans-serif;
+      display: flex;
+  }
 `
