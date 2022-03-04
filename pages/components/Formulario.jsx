@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 function Formulario() {
     return (
         <>
             <HR />
-            <Paragrafo><b>Entre na lista de doadores</b></Paragrafo>
+            <Paragrafo><AddCircleIcon /><b>Entre na lista de doadores</b></Paragrafo>
             <form>
                 <Inputs type="text" placeholder="Nome" id="inputnome" /><br />
                 <Inputs type="email" placeholder="Email" id="inputemail" /><br />
@@ -23,6 +24,7 @@ margin: 30px 0;
 const Paragrafo = styled.p`
 padding: 15px 0;
 `
+
 
 const Inputs = styled.input`
     font-size: 15px;

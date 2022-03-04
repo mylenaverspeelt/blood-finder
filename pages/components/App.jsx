@@ -5,17 +5,16 @@ import Home from "./Home";
 import { createGlobalStyle } from 'styled-components'
 
 
-
 export default function App() {
-    return (
-        <>
-        <GlobalStyle />
-        <Container >
+  return (
+    <>
+      <GlobalStyle />
+      <Container >
         <Capa />
         <Home />
-        </Container>
-        </>
-    )
+      </Container>
+    </>
+  )
 
 }
 
@@ -23,14 +22,14 @@ const Container = styled.div`
 display: flex;
 `
 
-const GlobalStyle  = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
   body{
-      font-family: sans-serif;
+      font-family:  sans-serif;
       display: flex;
   }
 `
