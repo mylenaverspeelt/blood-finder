@@ -17,7 +17,7 @@ Please install them if you don't have them already.
 From the command line, clone the repository:
 
 ```sh
-$ git clone https://github.com/mylenaverspeelt/blood-donation.git
+$ git clone https://github.com/mylenaverspeelt/blood-finder.git
 ```
 
 ## Step 3 - Run the app
@@ -25,7 +25,7 @@ $ git clone https://github.com/mylenaverspeelt/blood-donation.git
 Once the dependencies are installed, you can run the app:
 
 ```sh
-cd blood-donation
+cd blood-finder
 yarn dev
 ```
 Your browser should open up the running app, or you can access: http://localhost:3000/
