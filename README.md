@@ -1,6 +1,6 @@
-# Keeper-App!
+# Blood Finder
 
-It's a blood donor database using React, NextJS and MaterialUI.
+It's a blood donors database using React, NextJS and MaterialUI.
 
 ## Step 1 - Dependencies
 
