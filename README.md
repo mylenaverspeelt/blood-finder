@@ -2,6 +2,10 @@
 
 It's a blood donors database using React, NextJS and MaterialUI.
 
+!!It's not finished yet, I'm still working on it!!
+
+<img src="./read-me-img.png"/>
+
 ## Step 1 - Dependencies
 
 You will need:

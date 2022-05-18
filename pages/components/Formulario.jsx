@@ -3,6 +3,12 @@ import styled from "styled-components";
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 function Formulario() {
+
+
+            
+
+
+
     return (
         <>
             <HR />
