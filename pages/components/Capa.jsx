@@ -28,7 +28,6 @@ padding-top: 50px;
 line-height: 50px;
 `
 
-
 export default Capa
 
 

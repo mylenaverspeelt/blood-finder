@@ -6,8 +6,8 @@ function Titulo(){
     return (
         <>
         <Subtitulos>
-        <h3><DoubleArrowIcon />A sua doação importa</h3>
-        <p>Mais de 38.000 doações são necessárias todos os dias. Apenas 1,9% da população brasileira doa sangue</p>
+       <DoubleArrowIcon /> <h3>A sua doação importa!</h3>
+        <p>Mais de 38.000 doações são necessárias todos os dias. Apenas 1,9% da população brasileira doa sangue.</p>
         </Subtitulos>
         </>
         )
